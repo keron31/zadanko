@@ -54,6 +54,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Championship.cs" />
     <Compile Include="DodajKlienta.xaml.cs">
       <DependentUpon>DodajKlienta.xaml</DependentUpon>
     </Compile>
@@ -72,13 +73,35 @@
     <Compile Include="DodajTypSamolotu.xaml.cs">
       <DependentUpon>DodajTypSamolotu.xaml</DependentUpon>
     </Compile>
+    <Compile Include="DodgeballCup.cs" />
+    <Compile Include="DodgeballFinalFour.cs" />
+    <Compile Include="DodgeballGroupStage.cs" />
+    <Compile Include="DodgeballMatch.cs" />
+    <Compile Include="DodgeballPlayer.cs" />
+    <Compile Include="DodgeballReferee.cs" />
+    <Compile Include="DodgeballTeam.cs" />
     <Compile Include="OkienkoBledy.xaml.cs">
       <DependentUpon>OkienkoBledy.xaml</DependentUpon>
     </Compile>
     <Compile Include="Rezerwacja.cs" />
     <Compile Include="Samolot.cs" />
     <Compile Include="Trasa.cs" />
+    <Compile Include="TugOfWarCup.cs" />
+    <Compile Include="TugOfWarFinalFour.cs" />
+    <Compile Include="TugofWarGroupStage.cs" />
+    <Compile Include="TugOfWarMatch.cs" />
+    <Compile Include="TugOfWarPlayer.cs" />
+    <Compile Include="TugOfWarReferee.cs" />
+    <Compile Include="TugOfWarTeam.cs" />
     <Compile Include="TypSamolotu.cs" />
+    <Compile Include="VolleyballAssistantReferee.cs" />
+    <Compile Include="VolleyballCup.cs" />
+    <Compile Include="VolleyballFinalFour.cs" />
+    <Compile Include="VolleyballGroupStage.cs" />
+    <Compile Include="VolleyballMatch.cs" />
+    <Compile Include="VolleyballPlayer.cs" />
+    <Compile Include="VolleyballReferee.cs" />
+    <Compile Include="VolleyballTeam.cs" />
     <Compile Include="Wyjątek.cs" />
     <Compile Include="ZarzadzajTrasami.xaml.cs">
       <DependentUpon>ZarzadzajTrasami.xaml</DependentUpon>
