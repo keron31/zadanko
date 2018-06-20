@@ -129,7 +129,138 @@ namespace WPFprojekt
             oknoZarzadzajTrasami = null;
         }
 
-        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        private void Okno_DodajSedziowSiatkowki(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_UsunSedziowSiatkowki(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_ListaSedziowSiatkowki(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_DodajZawodnikowSiatkowki(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_UsunZawodnikowSiatkowki(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_ListaZawodnikowSiatkowki(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_DodajDruzyneSiatkowki(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_UsunDruzyneSiatkowki(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_ListaDruzynSiatkowki(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
+        private void Okno_DodajSedziowDwaOgnie(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_UsunSedziowDwaOgnie(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_ListaSedziowDwaOgnie(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_DodajZawodnikowDwaOgnie(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_UsunZawodnikowDwaOgnie(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_ListaZawodnikowDwaOgnie(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_DodajDruzyneDwaOgnie(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_UsunDruzyneDwaOgnie(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_ListaDruzynDwaOgnie(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_DodajSedziowPrzeciaganieLiny(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_UsunSedziowPrzeciaganieLiny(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_ListaSedziowPrzeciaganieLiny(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_DodajZawodnikowPrzeciaganieLiny(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_UsunZawodnikowPrzeciaganieLiny(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_ListaZawodnikowPrzeciaganieLiny(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_DodajDruzynePrzeciaganieLiny(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_UsunDruzynePrzeciaganieLiny(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Okno_ListaDruzynPrzeciaganieLiny(object sender, RoutedEventArgs e)
         {
 
         }

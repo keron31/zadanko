@@ -12,26 +12,65 @@
         <StackPanel x:Name="Panel" Orientation="Horizontal"  Height="35" VerticalAlignment="Top" HorizontalAlignment="Left">
             <Menu  Background="Gainsboro">
                 <MenuItem x:Name="DodajRozwijaj" Header="Siatkówka" Background="Gainsboro" FontSize="16" Height="35"  >
-                    <MenuItem Header="Sędziowie" Click="Okno_DodajLotnisko"/>
-                    <MenuItem Header="Zawodnicy" Click="Okno_Dodaj"/>
+                    <MenuItem Header="Sędziowie">
+                        <MenuItem Header="Dodaj sędziów" Click="Okno_DodajSedziowSiatkowki" />
+                        <MenuItem Header="Usuń sędziów" Click="Okno_UsunSedziowSiatkowki" />
+                        <MenuItem Header="Lista sędziów" Click="Okno_ListaSedziowSiatkowki" />
+                    </MenuItem>
+                    <MenuItem Header="Zawodnicy">
+                        <MenuItem Header="Dodaj zawodników" Click="Okno_DodajZawodnikowSiatkowki" />
+                        <MenuItem Header="Usuń zawodników" Click="Okno_UsunZawodnikowSiatkowki" />
+                        <MenuItem Header="Lista zawodników" Click="Okno_ListaZawodnikowSiatkowki" />
+                    </MenuItem>
                     <MenuItem Header="Drużyny">
-                        <MenuItem Header="Dodaj drużynę" Click="MenuItem_Click"/>
+                        <MenuItem Header="Dodaj drużynę" Click="Okno_DodajDruzyneSiatkowki" />
+                        <MenuItem Header="Usuń drużynę" Click="Okno_UsunDruzyneSiatkowki"/>
+                        <MenuItem Header="Lista drużyn" Click="Okno_ListaDruzynSiatkowki"/>
+                    </MenuItem>
                     <MenuItem Header="Faza grupowa"/>
-                    <MenuItem Header="Faza pucharowa">
-                        <MenuItem Header="Osoba" Click="Okno_DodajKlienta"/>
-                        <MenuItem Header="Posrednik" Click="Okno_DodajPosrednika"/>
-                    </MenuItem>
-                    <MenuItem Header="Samolot">
-                        <MenuItem Header="Typ" Click="Okno_DodajTypSamolotu"/>
-                        <MenuItem Header="Model" Click="Okno_DodajSamolot"/>
-                    </MenuItem>
+                    <MenuItem Header="Faza pucharowa"/>
                     <Separator/>
                 </MenuItem>
                 <MenuItem x:Name="ZarzadzajRozwijaj" Header="Dwa Ognie" Background="Gainsboro" FontSize="16" Height="35"  >
-                    <MenuItem Header="Trasy" Click="Okno_ZarzadzajTrasami"/>
+                    <MenuItem Header="Sędziowie">
+                        <MenuItem Header="Dodaj sędziów" Click="Okno_DodajSedziowDwaOgnie" />
+                        <MenuItem Header="Usuń sędziów" Click="Okno_UsunSedziowDwaOgnie" />
+                        <MenuItem Header="Lista sędziów" Click="Okno_ListaSedziowDwaOgnie" />
+                    </MenuItem>
+                    <MenuItem Header="Zawodnicy">
+                        <MenuItem Header="Dodaj zawodników" Click="Okno_DodajZawodnikowDwaOgnie" />
+                        <MenuItem Header="Usuń zawodników" Click="Okno_UsunZawodnikowDwaOgnie" />
+                        <MenuItem Header="Lista zawodników" Click="Okno_ListaZawodnikowDwaOgnie" />
+                    </MenuItem>
+                    <MenuItem Header="Drużyny">
+                        <MenuItem Header="Dodaj drużynę" Click="Okno_DodajDruzyneDwaOgnie" />
+                        <MenuItem Header="Usuń drużynę" Click="Okno_UsunDruzyneDwaOgnie"/>
+                        <MenuItem Header="Lista drużyn" Click="Okno_ListaDruzynDwaOgnie"/>
+                    </MenuItem>
+                    <MenuItem Header="Faza grupowa"/>
+                    <MenuItem Header="Faza pucharowa"/>
                     <Separator/>
                 </MenuItem>
-                <MenuItem x:Name="Rezerwuj" Header="Przeciąganie Liny" FontSize="16" Click="FunkcjaRezerwuj"  Height="35" BorderBrush="Gainsboro"/>
+                <MenuItem x:Name="Rezerwuj" Header="Przeciąganie Liny" FontSize="16" Click="FunkcjaRezerwuj"  Height="35" BorderBrush="Gainsboro">
+                    <MenuItem Header="Sędziowie">
+                        <MenuItem Header="Dodaj sędziów" Click="Okno_DodajSedziowPrzeciaganieLiny" />
+                        <MenuItem Header="Usuń sędziów" Click="Okno_UsunSedziowPrzeciaganieLiny" />
+                        <MenuItem Header="Lista sędziów" Click="Okno_ListaSedziowPrzeciaganieLiny" />
+                    </MenuItem>
+                    <MenuItem Header="Zawodnicy">
+                        <MenuItem Header="Dodaj zawodników" Click="Okno_DodajZawodnikowPrzeciaganieLiny" />
+                        <MenuItem Header="Usuń zawodników" Click="Okno_UsunZawodnikowPrzeciaganieLiny" />
+                        <MenuItem Header="Lista zawodników" Click="Okno_ListaZawodnikowPrzeciaganieLiny" />
+                    </MenuItem>
+                    <MenuItem Header="Drużyny">
+                        <MenuItem Header="Dodaj drużynę" Click="Okno_DodajDruzynePrzeciaganieLiny" />
+                        <MenuItem Header="Usuń drużynę" Click="Okno_UsunDruzynePrzeciaganieLiny"/>
+                        <MenuItem Header="Lista drużyn" Click="Okno_ListaDruzynPrzeciaganieLiny"/>
+                    </MenuItem>
+                    <MenuItem Header="Faza grupowa"/>
+                    <MenuItem Header="Faza pucharowa"/>
+                    <Separator/>
+                </MenuItem>
                 <MenuItem x:Name="StronaGlowna" Header="Strona główna" FontSize="16" Click="WyswietlGlowna" BorderBrush="Gainsboro" />
             </Menu>
             <TextBlock Text="Aktualna Data: " FontSize="24"/>
