@@ -1,0 +1,50 @@
+﻿<Window x:Class="WPFprojekt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFprojekt"
+        mc:Ignorable="d"
+        Title="Plibuda Lines Company" Height="550" Width="900" WindowStartupLocation="CenterScreen" MinWidth="900" MinHeight="550">
+
+    <Grid>
+        <!-- główny grind!!!!!!!!! -->
+        <StackPanel x:Name="Panel" Orientation="Horizontal"  Height="35" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <Menu  Background="Gainsboro">
+                <MenuItem x:Name="DodajRozwijaj" Header="Siatkówka" Background="Gainsboro" FontSize="16" Height="35"  >
+                    <MenuItem Header="Sędziowie" Click="Okno_DodajLotnisko"/>
+                    <MenuItem Header="Zawodnicy" Click="Okno_Dodaj"/>
+                    <MenuItem Header="Drużyny">
+                        <MenuItem Header="Dodaj drużynę" Click="MenuItem_Click"/>
+                    <MenuItem Header="Faza grupowa"/>
+                    <MenuItem Header="Faza pucharowa">
+                        <MenuItem Header="Osoba" Click="Okno_DodajKlienta"/>
+                        <MenuItem Header="Posrednik" Click="Okno_DodajPosrednika"/>
+                    </MenuItem>
+                    <MenuItem Header="Samolot">
+                        <MenuItem Header="Typ" Click="Okno_DodajTypSamolotu"/>
+                        <MenuItem Header="Model" Click="Okno_DodajSamolot"/>
+                    </MenuItem>
+                    <Separator/>
+                </MenuItem>
+                <MenuItem x:Name="ZarzadzajRozwijaj" Header="Dwa Ognie" Background="Gainsboro" FontSize="16" Height="35"  >
+                    <MenuItem Header="Trasy" Click="Okno_ZarzadzajTrasami"/>
+                    <Separator/>
+                </MenuItem>
+                <MenuItem x:Name="Rezerwuj" Header="Przeciąganie Liny" FontSize="16" Click="FunkcjaRezerwuj"  Height="35" BorderBrush="Gainsboro"/>
+                <MenuItem x:Name="StronaGlowna" Header="Strona główna" FontSize="16" Click="WyswietlGlowna" BorderBrush="Gainsboro" />
+            </Menu>
+            <TextBlock Text="Aktualna Data: " FontSize="24"/>
+            <TextBlock  x:Name="Data" Text="{Binding WirtualnaData}"   FontSize="24"  />
+        </StackPanel>
+        <Grid Margin="0,35,0,0">
+
+
+        </Grid>
+
+        <Frame x:Name="Okno" Margin="0,35,0,0" NavigationUIVisibility="Hidden"/>
+
+
+
+    </Grid>
+</Window>
